@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <ctype.h>
+#include <string.h>
 int main() {
     
     // print every charcter
@@ -29,11 +30,29 @@ int main() {
 
 
 // prints every movie
-//    char movies[3][6]={"gfdth","wsxcd","qweds"};
-//     for(int i=0; i<3;i++){
-//         printf("%s\n", movies[i]);
-//     }
+//    char movies[3][15]={"gfdth", "wsxcd","qweds"};
+   
+    // for(int i=0; i<3;i++){
+    //     printf("%s\n", movies[i]);
+    // }
 
+    // char movies[3][25]={"gfdth hjjnjb jhjij"};
+    // printf("%c", movies[0][6]);
+
+
+
+
+
+
+// char text[] = "This is an example sentence.";
+// int letters = 0;
+// int words = 1; // Start at 1 for the first word
+
+//     // for (int i = 0, n = strlen(text); i < n; i++) {
+//     //    printf("%s",text[i]);
+//     // }
+
+//   printf("%s",text) ;
 
 
     return 0;
